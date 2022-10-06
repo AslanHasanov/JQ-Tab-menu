@@ -3,6 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+  background-color: #3c1053;
+  img{
+    width:100%;
+  }
+  .logo{
+    width: 5rem;
+  }
+}
+
 .main{
   a{
     margin-right: 6.1rem;
@@ -11,7 +21,7 @@
     padding: 10px;
     font-size: larger;
   }
-  
+ 
 }
 
 .down{
@@ -22,7 +32,7 @@
   }
   ul{
     
-    background-color: blue;
+    background-color: #ad5389;
     padding: 20px;
   }
   #home{
@@ -46,3 +56,21 @@
     top: 10px;
   }
 }
+.slider{
+  img{
+    width: 100%;
+    height: 80vh;
+    object-fit: fill;
+  }
+  .slick-next{
+    margin-right: 5rem;
+    padding: 1rem;
+  }
+  .slick-prev{
+    margin-left: 4rem;
+    z-index: 1;
+    
+  }
+}
+
+

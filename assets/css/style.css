@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+header {
+  background-color: #3c1053;
+}
+header img {
+  width: 100%;
+}
+header .logo {
+  width: 5rem;
+}
+
 .main a {
   margin-right: 6.1rem;
   text-decoration: none;
@@ -20,7 +30,7 @@
   list-style: none;
 }
 .down ul {
-  background-color: blue;
+  background-color: #ad5389;
   padding: 20px;
 }
 .down #home {
@@ -42,4 +52,19 @@
   position: absolute;
   left: 748px;
   top: 10px;
+}
+
+.slider img {
+  width: 100%;
+  height: 80vh;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.slider .slick-next {
+  margin-right: 5rem;
+  padding: 1rem;
+}
+.slider .slick-prev {
+  margin-left: 4rem;
+  z-index: 1;
 }/*# sourceMappingURL=style.css.map */
