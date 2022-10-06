@@ -30,6 +30,7 @@ header .logo {
   list-style: none;
 }
 .down ul {
+  z-index: 1;
   background-color: #ad5389;
   padding: 20px;
 }
