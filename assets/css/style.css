@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main a {
+  margin-right: 6.1rem;
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px;
+  font-size: larger;
+}
+
+.down {
+  position: relative;
+}
+.down li {
+  color: aliceblue;
+  list-style: none;
+}
+.down ul {
+  background-color: blue;
+  padding: 20px;
+}
+.down #home {
+  position: absolute;
+  left: 236px;
+  top: 10px;
+}
+.down #about {
+  position: absolute;
+  left: 403px;
+  top: 10px;
+}
+.down #contact {
+  position: absolute;
+  left: 573px;
+  top: 10px;
+}
+.down #blog {
+  position: absolute;
+  left: 748px;
+  top: 10px;
+}/*# sourceMappingURL=style.css.map */
